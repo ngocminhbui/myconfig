@@ -37,6 +37,6 @@ sudo apt install fuse
 sudo apt install psmisc
 sudo add-apt-repository ppa:alessandro-strada/ppa
 sudo apt update
-sudo apt install google-drive-ocamlfuse
+sudo apt install google-drive-ocamlfuse -y
 
 echo "installed libs"
