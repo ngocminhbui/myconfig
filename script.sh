@@ -35,8 +35,8 @@ sudo apt install software-properties-common
 sudo apt install vim tmux
 sudo apt install fuse
 sudo apt install psmisc
-sudo add-apt-repository ppa:alessandro-strada/ppa
+sudo add-apt-repository ppa:alessandro-strada/ppa -y
 sudo apt update
-sudo apt install google-drive-ocamlfuse -y
+sudo apt install google-drive-ocamlfuse
 
 echo "installed libs"
