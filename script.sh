@@ -2,9 +2,9 @@
 #google colab script
 
 #export env path
-echo 'export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/lib64-nvidia'>> ~/.bashrc
-echo 'export PYTHONPATH=/env/python'>> ~/.bashrc
+echo 'export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin' >> /root/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/lib64-nvidia'>> /root/.bashrc
+echo 'export PYTHONPATH=/env/python'>> /root/.bashrc
 
 echo "exported"
 
