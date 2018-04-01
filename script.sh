@@ -1,6 +1,14 @@
 #!/bin/bash
 #google colab script
 
+#export env path
+echo 'export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/lib64-nvidia'>> ~/.bashrc
+echo 'export PYTHONPATH=/env/python'>> ~/.bashrc
+
+echo "exported"
+
+
 #update password
 passwd << EOF
 abc
@@ -20,12 +28,7 @@ unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken 89q145tmAsh3xDCx969BT_4yFHqokA3VxfHqgadwpxA
 
 echo "ngrok stated"
-#export env path
-echo 'export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/lib64-nvidia'>> ~/.bashrc
-echo 'export PYTHONPATH=/env/python'>> ~/.bashrc
 
-echo "exported"
 
 #install libs.
 
