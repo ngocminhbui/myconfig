@@ -18,7 +18,6 @@ echo "service started"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken 89q145tmAsh3xDCx969BT_4yFHqokA3VxfHqgadwpxA
-./ngrok tcp 22  > logngrok.txt &
 
 echo "ngrok stated"
 #export env path
